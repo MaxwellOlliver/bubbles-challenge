@@ -63,8 +63,7 @@ Error generating stack: `+o.message+`
     color: #fff;
     font-size: 2.5rem;
     cursor: default;
-    z-index: 999;
-    text-shadow: 0px 0px 20px #fff;
+    user-select: none;
   }
 
   .bubbles-container__user-action {
@@ -103,6 +102,7 @@ Error generating stack: `+o.message+`
     background-color: ${e=>e.theme.primary};
     border-radius: 50%;
     position: absolute;
+    z-index: 998;
     animation: summonBubble 0.4s linear,
       bubbleScale 3s 0.6s linear infinite forwards;
     box-shadow: 0px 0px 10px 0px ${e=>e.theme.primary};
@@ -137,13 +137,7 @@ Error generating stack: `+o.message+`
     40% {
       transform: scale(1.2);
     }
-    60% {
-      transform: scale(0.8);
-    }
     75% {
-      transform: scale(1.1);
-    }
-    90% {
       transform: scale(0.9);
     }
     100% {
