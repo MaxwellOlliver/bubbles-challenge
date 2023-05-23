@@ -4,4 +4,4 @@
 
 - Should have Undo and Redo buttons to recreate or uncreate bubbles.
 
-Check it out clicking (here)[https://maxwellolliver.github.io/bubbles-challenge/]
+Check it out clicking [here](https://maxwellolliver.github.io/bubbles-challenge/)
